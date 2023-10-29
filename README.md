@@ -1,8 +1,10 @@
 # appliedpythonanddatascience101
-BDAA (Big Data Analysis Association) : Applied Python and Data Science 101  
+KAIST KOOC system - data science programming 1, 2
 
-본 repository는 한국빅데이터학회 산하 빅데이터분석학회 BDAA 학회원 중 '파이썬 응용 및 데이터사이언스 기초'의 learning set 입니다.  
+본 repository는 KAIST에서 진행하는 KOOC 프로그램에서 '데이터사이언스 프로그래밍 1, 2'를 공부한 code set입니다.  
+
+시작 : 2023.10.30.
 
 -------------------------------------------  
 
-This repository is the learning set of 'Python Application and Data Science Fundamentals' among members of the Big Data Analysis Association under the Korean Big Data Association, BDAA.
+This repository is a code set that studied 'Data Science Programming 1 and 2' in KOOC program conducted by KAIST.
