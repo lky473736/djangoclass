@@ -1,7 +1,7 @@
 # djangoclass
 (for competition) Professor Jose Portilla - Python and Django Full Stack Web Developer Bootcamp 
 
-가천대학교 아르테크네센터에서 운영하는 공모전인 <내진설계>에 선발되어, <개발자 내(來:미래)진(進:나아가다)설계를 위한 내(耐:견디다)진(震:역경)설계> 프로젝트를 진행해야 합니다. 본 repository는 프로젝트 안에 설계된 학습루틴입니다.  
+가천대학교 아르테크네센터에서 운영하는 공모전인 <내진설계>에 선발되어, <개발자 내(來:미래)진(進:나아가다)설계를 위한 내(耐:견디다)진(震:역경)설계> 프로젝트를 진행해야 합니다. (https://artechne.gachon.ac.kr/ko/info/notice/view/12900) 본 repository는 프로젝트 안에 설계된 학습루틴입니다.  
 본 repository는 Udemy 강좌인 Python and Django Full Stack Web Developer Bootcamp를 듣고 공부한 learning set입니다.    
 시작 : 2023.11.13
 
