@@ -1,0 +1,52 @@
+<!--
+    http : 하이퍼 텍스트 트렌스퍼 프로토콜 (통신을 가능하게 하는데 필요한 프로토콜) 
+
+    form : 뭔가를 수집하기 위한 구조 (웹사이트 회원가입, 설문조사, 커뮤니티, 인스타 업로드 ...)
+
+    form의 구조 : input 태그, label 태그
+
+    ex) 네이버 검색할 때) 단일 텍스트 필드랑 제출 버튼이 있는 폼 형태
+
+    보통은 form 구조에서 '제출'버튼을 누르면 다른 웹페이지로 이동된다
+    (다른 웹페이지로 이동되는 행위 : 리디렉션)
+-->
+
+<!-- 서버와 클라이언트 : 웹 페이지 요청을 서버에게 함, 메인페이지를 클라이언트에게 제공
+    server : serving mechanism by searching algo
+
+    클라이언트가 서버에게 요청할 수 있는 방식 (전부 클라이언트 입장)
+    1) GET : 서버가 클라이언트에게 메인페이지를 보내는 것을 요청
+    2) POST : 클라이언트가 서버에게 데이터를 보내는 것을 요청 (로그인, 클라우드)
+
+    쉽게 말해서 GET은 서버에게 데이터 달라고 요청하는 것이고
+    POST는 내가 서버에게 데이터를 주는 것
+
+    웹페이지 : html을 기본으로 구성 (해석 엔진 : 웹 브라우저)
+    js : html에 기능 부여
+    css : html에 스타일 부여
+
+    웹크롤링 : 웹페이지를 요청한 후 (GET) html 문서에서 원하는 정보를 얻는 행위
+-->
+
+<body>
+    <form action="for06_07.html"> 
+    <!-- action : 사용자가 폼을 제출한 후 이동하는 위치 (리디렉션되는 위치)-->
+
+        <label for="fname">first name : </label> <!--fname이라는 id를 위한 창-->
+        <input type="text" id = "fname" name = "fname"> </br>
+        <!--input type : 다양하게 입력할 수 있음 (텍스트, 날짜 등등)
+            input id : label과 대응
+            input name : input에서 받아온 정보 변수명
+            name을 정의하면 그 name에 대응되는 페이지로 리디렉션 할 수 있게 됨
+            (제출 버튼을 누르면 페이지에서 정보를 다음 페이지로 보낼 수 있다는 걸 알 수 있음)
+            br : 들여쓰기-->
+
+        <label for ="lname">last name : </label> <!--lname이라는 id를 위한 창-->
+        <input type = "text" name = "lname">
+
+        <br>
+        <input type = "submit">
+        <!--submit 버튼 = 사용자가 폼을 제출한 후 이동하는 위치 버튼-->
+
+    </form>
+</body>

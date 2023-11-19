@@ -1,0 +1,27 @@
+<!--<div> : division(영역)
+    특정 영역에 특정한 스타일을 적용할 때 사용-->
+
+<!--<span> : <div>와 비슷하지만 inline containers를 사용함
+    특정 영역에 특정한 스타일을 적용할 때 사용-->
+
+<!--CSS에서 div와 span이 유용
+    특정 영역 콘텐츠만 스타일 적용할 수 있기 때문-->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style = "color : red"> <!--div 안에 있는 전 영역에 같은 스타일을 부여할 수 있음 (일일히 각각의 태그에다가 노가다 안해도 됨)-->
+        <p>sentence one</p>
+        <p>sentence two</p>
+    </div>
+
+    <div>
+        <!--span 안에 있는 영역 안에서만 스타일을 부여할 수 있음 (inline containers : 같은 라인에서 일부 영역에 작은 섹션 만들기)-->
+        <p>sentence <span style = "color : blue">three</span></p>
+    </div>
+</body>
+</html>
