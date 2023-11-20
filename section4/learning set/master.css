@@ -1,0 +1,27 @@
+/*
+ 폰트 사이즈를 바꾸는 방법은 두가지다.
+ 1) 절대 유닛 : px, cm, mm
+ 2) 상대 유닛 : x-small, smaller, em
+ */
+
+body
+{
+    font-family : "Montserrat"; /*텍스트 페밀리 (폰트모음)*/
+    font-size : 100% /* 기본글꼴의 폰트사이즈의 크기*/
+}
+
+h1{
+    text-align : center; /* 텍스트 정렬 */
+    font-size : 50px
+}
+
+p{
+    font-size : 1.4em;
+} /* 1em : 시스템에서 제공하는 기본 글꼴 크기 
+    2em : 1em * 2 크기 ... 
+    상대글꼴로 글자 크기를 정하면 그게 어느 기기에서든지 일정한 비율을 유지하며 보여줄 수 있다는 장점이 있음*/
+
+/* 
+    컴퓨터로 글꼴 연결하기
+    fonts.google.com -> 맘에 드는 글꼴 찾기 -> https://developers.google.com/fonts/docs/developer_api?hl=ko
+*/

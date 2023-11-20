@@ -1,0 +1,35 @@
+<!--
+    selector : id, class
+    span, div와 같이 컨테이너를 만드는거임.
+    span, div보다 더 많은 제어, 유연성을 가짐
+
+    class 속성에 요소를 할당 가능 (거의 div 내부에 모든 스타일을 그룹화하기 위해 사용. 거의 div랑 같이 다님.)
+    id 속성은 완전히 고유함. 웹페이지의 단일 요소임.
+
+    따라서 class는 재사용이 가능. 
+    id는 재사용 불가능 (고유성)
+
+    class : 학급
+    id : 내 이름
+-->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="master.css">
+</head>
+<body>
+        <p id = "p1">div 위의 단락</p>
+        <div class = "d1">
+            <p>div1 안의 단락1</p>
+            <p>div1 안의 단락2</p>
+        </div>
+        <p id = "p2">div 아래의 단락</p>
+        <div class = "d2">
+            <p>div2 안의 단락1</p>
+            <p class = "d1">div2 안의 단락2</p> <!-- 꼭 class가 div에만 있어야 할 필요는 없는거다.-->
+        </div>
+</body>
+</html>
