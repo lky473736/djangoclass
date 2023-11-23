@@ -1,0 +1,22 @@
+/*
+    CSS box model 
+    content < padding < border < margin ...
+*/
+
+#up{
+    text-align : center;
+    border : 10px solid blue;
+    margin-bottom: 100px;
+    margin-left: 300px;
+    padding : 10px
+}
+
+#down{
+    text-align : center;
+    border : 10px solid red;
+    padding-left : 100px
+}
+
+/* up의 margin-bottom이랑 down의 margin-up은 서로 상호작용한다.
+   margin : ~px은 바깥으로 띄워지는 것 
+   padding : ~px은 안에서부터 띄워지는 것 */

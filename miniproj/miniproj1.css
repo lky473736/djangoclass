@@ -1,0 +1,17 @@
+body
+{
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.idpw{
+    color: white;
+    background-color: green;
+    border-width: 3px;
+    border-color: black;
+    border-style:solid;
+}
+
+h1{
+    text-align : center;
+}
